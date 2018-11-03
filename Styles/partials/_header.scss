@@ -1,17 +1,38 @@
+.wrapper {
+  margin: 0 auto; 
+  max-width: 1280px;
+}
+
 .nav {
   background: $headerAccent;
-
-  &__li {
-    display: inline-block;
+  position: relative;
+  // display: flex;
+  // justify-content: center;
+  
+  &__ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
   }
 
   &__a {
     font-family: $bodyFont;
+    text-decoration: none;
     text-transform: uppercase;
     margin: 0 auto;
-    padding: 0;
+    padding-top: 10px;
     color: $mainText;
   }
+ 
+}
+
+.logo {
+  font-family: $titleFont;
+  font-size: 2rem;
+  position: absolute;
+  top: 3%;
+  right: 45%;
+  text-transform: uppercase;
 }
 
 .header {
