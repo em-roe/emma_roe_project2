@@ -182,21 +182,27 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 
 ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+ul li {
+  margin: 0 0;
+  padding: 0 0;
 }
 
 .nav {
   background: #f6a823;
 }
-.nav__ul {
-  color: #2c2c2c;
-}
 .nav__li {
   display: inline-block;
 }
 .nav__a {
-  font-fmaily: "Lora", serif;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding: 0;
+  color: #2c2c2c;
 }
 
 .header {

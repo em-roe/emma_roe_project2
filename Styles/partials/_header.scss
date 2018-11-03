@@ -1,18 +1,17 @@
 .nav {
   background: $headerAccent;
 
-    &__ul {
-      color: $mainText;
-    }
+  &__li {
+    display: inline-block;
+  }
 
-    &__li {
-      display: inline-block;
-    }
-
-    &__a {
-      font-family: $bodyFont;
-      text-transform: uppercase;
-    }
+  &__a {
+    font-family: $bodyFont;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 0;
+    color: $mainText;
+  }
 }
 
 .header {
