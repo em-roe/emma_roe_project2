@@ -1,0 +1,20 @@
+.nav {
+  background: $headerAccent;
+
+    &__ul {
+      color: $mainText;
+    }
+
+    &__li {
+      display: inline-block;
+    }
+
+    &__a {
+      font-family: $bodyFont;
+      text-transform: uppercase;
+    }
+}
+
+.header {
+  background: $headerAccent;
+}
