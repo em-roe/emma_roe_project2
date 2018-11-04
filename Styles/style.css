@@ -200,8 +200,9 @@ img {
 
 .nav {
   background: #f6a823;
-  padding: 0;
+  padding: 0 0;
   position: fixed;
+  z-index: 100;
 }
 
 .nav--mobile {
@@ -212,16 +213,16 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 1rem 10%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 0;
   margin: 0 auto;
 }
 
 .nav__li {
   padding: 0 0;
-  margin: auto auto;
+  margin: auto 0;
 }
 
 .nav__a {
@@ -249,35 +250,106 @@ img {
 .wrapper {
   margin: 0 auto;
   width: 1280px;
+  max-width: 80%;
 }
 
 .header {
   background: #f6a823;
   height: 100vh;
+  padding: 10rem 0;
+  margin: 0 auto;
+}
+
+.header .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding-top: 10rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__logo {
+  height: 100%;
 }
 
 .header__text {
-  font-family: "Lora", serif;
-  text-transform: uppercase;
   color: #2c2c2c;
+  font-family: "Lora", serif;
   font-size: 80px;
   line-height: 9.2rem;
-  padding: 3rem 0 0 0;
   margin: 0 auto;
+  padding: 8rem 0 0 0;
   text-align: center;
+  text-transform: uppercase;
   position: relative;
 }
 
 .header__image img {
   height: 90vh;
+  margin: 0 auto;
   -webkit-box-shadow: 10px 10px white;
           box-shadow: 10px 10px white;
   display: block;
+}
+
+.header__logo--circle {
+  position: absolute;
+  top: 40%;
+  left: 7%;
+}
+
+.about {
+  background: #f0efed;
+  padding: 5rem 0;
+  margin: 0 auto;
+}
+
+.about__container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.about__title {
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  color: #2c2c2c;
+  text-transform: uppercase;
+  font-size: 4.2rem;
+  letter-spacing: 1px;
+}
+
+.about__body {
+  font-family: "Roboto", sans-serif;
+  color: #2c2c2c;
+  font-size: 2rem;
+}
+
+.about__more {
+  background: #05afc1;
+  width: 23rem;
+  padding: .8rem 0;
+}
+
+.about__link {
+  color: #2c2c2c;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.journey {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 /*# sourceMappingURL=style.css.map */
