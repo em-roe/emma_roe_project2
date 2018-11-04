@@ -195,33 +195,42 @@ ul li {
 
 img {
   display: block;
-}
-
-.wrapper {
-  margin: 0 auto;
-  max-width: 1280px;
+  max-width: 100%;
 }
 
 .nav {
   background: #f6a823;
-  position: relative;
+  padding: 0;
+  position: fixed;
+}
+
+.nav--mobile {
+  display: none;
 }
 
 .nav__ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding-top: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem 10%;
+  margin: 0 auto;
+}
+
+.nav__li {
+  padding: 0 0;
+  margin: auto auto;
 }
 
 .nav__a {
   font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: 1px;
   text-decoration: none;
   text-transform: uppercase;
-  margin: 0 auto;
-  padding-top: 0px;
   color: #2c2c2c;
 }
 
@@ -231,15 +240,44 @@ img {
 
 .sophie {
   font-family: "Lora", serif;
-  font-size: 2rem;
-  position: absolute;
-  top: 3%;
-  right: 45%;
+  font-size: 4rem;
+  color: #2c2c2c;
+  font-weight: bold;
   text-transform: uppercase;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1280px;
 }
 
 .header {
   background: #f6a823;
-  max-height: 100vh;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 10rem;
+}
+
+.header__text {
+  font-family: "Lora", serif;
+  text-transform: uppercase;
+  color: #2c2c2c;
+  font-size: 80px;
+  line-height: 9.2rem;
+  padding: 3rem 0 0 0;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.header__image img {
+  height: 90vh;
+  -webkit-box-shadow: 10px 10px white;
+          box-shadow: 10px 10px white;
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */

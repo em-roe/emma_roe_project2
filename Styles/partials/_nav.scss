@@ -1,0 +1,46 @@
+.nav {
+  background: $headerAccent;
+  padding: 0;
+  position: fixed;
+
+  &--mobile { 
+    display: none;  //hides the mobile logo
+  }
+  
+  &__ul {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 10%;
+    margin: 0 auto;
+  }
+
+  &__li {
+    padding: 0 0;
+    margin: auto auto;
+  }
+
+  &__a {
+    font-family: $bodyFont;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $mainText;
+
+    &:hover {
+      color: white;
+    }
+  }
+ 
+}
+
+.sophie {
+  font-family: $titleFont;
+  font-size: 4rem;
+  color: $mainText;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
