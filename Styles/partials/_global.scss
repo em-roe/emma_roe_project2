@@ -41,8 +41,8 @@
 
   &__logo--circle {
     position: absolute;
-    top: 40%;
-    left: 7%;
+    top: 45%;
+    left: -10%;
   }
 } //end Header
 
@@ -155,7 +155,8 @@
   }
 
   &__icon {
-    padding-top: 1rem;
+    padding: 2rem;
+    font-size: 2rem;
   }
 
   &__container {
@@ -174,11 +175,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 3rem;
-    width: 3rem;
+    height: 5rem;
+    width: 5rem;
     color: $mainText;
     background-color: $headerAccent;
     border-radius: 50%;
+    padding: 0;
   }
 
   &__body {

@@ -1,7 +1,10 @@
 .nav {
   background: $headerAccent;
   padding: 0 0;
+  margin: 0 auto;
   position: fixed;
+  width: 100%;
+  text-align: center;
   z-index: 100; //to keep the nav on top of all the content
 
   &--mobile { 
@@ -9,15 +12,11 @@
   }
   
   &__ul {
+    padding: 0 0;
+    margin: 0 15%;
     display: flex;
-    justify-content: space-between;
-    padding: 0 0;
-    margin: 0 auto;
-  }
-
-  &__li {
-    padding: 0 0;
-    margin: auto 0;
+    align-items: center;
+    justify-content: space-around;
   }
 
   &__a {
@@ -28,12 +27,15 @@
     text-decoration: none;
     text-transform: uppercase;
     color: $mainText;
+    display: inline-block;
+    padding: 0rem;
 
     &:hover {
       color: white;
     }
+    
   }
- 
+
 }
 
 .sophie {
