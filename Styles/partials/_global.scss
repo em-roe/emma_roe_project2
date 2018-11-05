@@ -44,7 +44,7 @@
     top: 40%;
     left: 7%;
   }
-}
+} //end Header
 
 .about {
   background: $background;
@@ -89,9 +89,136 @@
     margin: 0 auto;
   }
 
+  &__image {
+    padding-right: 5rem;
+  }
+
+  &__image--orange {
+    margin-right: 5rem;
+    box-shadow: 10px 10px $headerAccent;
+  }
+} // end who is sophie? 
+
+.posts {
+  display: flex;
+  padding: 5rem 0;
+  margin: 0 8rem;
+
+  &__fav {
+    flex-direction: row-reverse;
+  }
+
+  &__title {
+    font-family: $bodyFont;
+    text-transform: uppercase;
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__container{
+    padding: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  &__image {
+
+    &--yellow {
+      box-shadow: 10px 10px $headerAccent,
+                  80px 10px $headerAccent;
+    }
+
+    &--orange {
+      box-shadow: 10px 10px $imageAccent,
+                  -80px 10px $imageAccent;
+
+    }
+  }
 }
 
+
+.links {
+  
+  &__wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  }  
+
+  &__more {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__icon {
+    padding-top: 1rem;
+  }
+
+  &__container {
+    width: 50%;
+    border: 1px solid blue;
+    padding: 2rem;
+    margin: 0;
+  }
+
+  &__title {
+    margin: 0 0;
+    display: inline;
+  }
+
+  &__more--circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 3rem;
+    color: $mainText;
+    background-color: $headerAccent;
+    border-radius: 50%;
+  }
+
+  &__body {
+    margin: 0 0;
+    margin-left: 1.5rem;
+    padding: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 .journey {
+  display: flex; 
+  flex-direction: row;
+}
+
+.gallery {
+  padding: 8rem 0;
+
+  &__ul {
+    display: flex;
+    margin: 0 0;
+    padding: 0 0;
+  }
+
+  &__image--padding {
+    padding: 0 2rem;
+  }
+}
+
+
+
+.section__gallery {
   display: flex; 
   flex-direction: row;
 }

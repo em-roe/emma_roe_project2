@@ -343,7 +343,152 @@ img {
   margin: 0 auto;
 }
 
+.about__image {
+  padding-right: 5rem;
+}
+
+.about__image--orange {
+  margin-right: 5rem;
+  -webkit-box-shadow: 10px 10px #f6a823;
+          box-shadow: 10px 10px #f6a823;
+}
+
+.posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5rem 0;
+  margin: 0 8rem;
+}
+
+.posts__fav {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.posts__title {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 3.2rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.posts__container {
+  padding: 0 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.posts__image--yellow {
+  -webkit-box-shadow: 10px 10px #f6a823, 80px 10px #f6a823;
+          box-shadow: 10px 10px #f6a823, 80px 10px #f6a823;
+}
+
+.posts__image--orange {
+  -webkit-box-shadow: 10px 10px #a82706, -80px 10px #a82706;
+          box-shadow: 10px 10px #a82706, -80px 10px #a82706;
+}
+
+.links__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.links__more {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.links__icon {
+  padding-top: 1rem;
+}
+
+.links__container {
+  width: 50%;
+  border: 1px solid blue;
+  padding: 2rem;
+  margin: 0;
+}
+
+.links__title {
+  margin: 0 0;
+  display: inline;
+}
+
+.links__more--circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 3rem;
+  width: 3rem;
+  color: #2c2c2c;
+  background-color: #f6a823;
+  border-radius: 50%;
+}
+
+.links__body {
+  margin: 0 0;
+  margin-left: 1.5rem;
+  padding: 0;
+}
+
 .journey {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.gallery {
+  padding: 8rem 0;
+}
+
+.gallery__ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.gallery__image--padding {
+  padding: 0 2rem;
+}
+
+.section__gallery {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
