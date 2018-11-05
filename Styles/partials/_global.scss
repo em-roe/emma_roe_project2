@@ -47,7 +47,7 @@
 
   &__image--orange {
     margin-right: 5rem;
-    box-shadow: 10px 10px $headerAccent;
+    box-shadow: 15px 15px $headerAccent;
   }
 } // end who is sophie? 
 
@@ -74,6 +74,7 @@
     display: flex;
     flex-direction: column;
     align-content: center;
+    width: 70%;
   }
 
   &__body { // but these styles are the same as the ones for the about
@@ -94,17 +95,19 @@
 }
 
 .links {
+  padding: 5rem 0 0 0;
   
   &__wrapper {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }  
 
   &__more {
     text-decoration: none;
     display: flex;
     flex-direction: row;
+    color: $mainText;
   }
 
   &__icon {
@@ -114,14 +117,20 @@
 
   &__container {
     width: 50%;
-    border: 1px solid blue;
-    padding: 2rem;
+    min-width: 450px;
+    // border: 1px solid blue;
+    padding: 0 0 5rem 0;
     margin: 0;
   }
 
   &__title {
     margin: 0 0;
     display: inline;
+    padding: 1rem 0 0 1rem;
+    font-family: $bodyFont;
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    color: $mainText;
   }
 
   &__more--circle {
@@ -138,19 +147,13 @@
 
   &__body {
     margin: 0 0;
-    margin-left: 1.5rem;
-    padding: 0;
+    padding: 1rem 0 0 6rem;
+    font-family: $bodyFont;
+    letter-spacing: 1px;
+    color: $mainText;
+    font-size: 2rem;
   }
 }
-
-
-
-
-
-
-
-
-
 
 .journey {
   display: flex; 

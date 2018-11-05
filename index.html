@@ -5,13 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link href="https://fonts.googleapis.com/css?family=Lora|Roboto:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora|Roboto:400,700,900" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
     crossorigin="anonymous">
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-
   <nav class="nav">
     <!-- <div class="wrapper"> -->
       <span class="nav--mobile sophie">sophie</span>
@@ -23,7 +22,7 @@
           <a class="nav__a" href="index.html#about">About</a>
         </li>
         <li class="nav__li nav--desktop">
-          <span class="nav--desktop sophie">sophie</span>
+          <span class="nav--desktop nav__sophie">sophie</span>
         </li>
         <li class="nav__li nav__link">
           <a class="nav__a" href="blog.html">Blog</a>
@@ -34,23 +33,20 @@
       </ul>
     <!-- </div> /.wrapper -->
   </nav>
-
   <header class="header">
-    <div class="wrapper">
+    <!-- <div class="wrapper"> -->
       <div class="header__logo">
         <div class="header__text">
-          <h1 class="header__heading">Sophie</h1>
-          <img class="header__logo--circle" src="assets/circle-text.png" alt="its all about">
+          <h1 class="header__heading"><span class="visuallyhidden"> It's all about </span> Sophie</h1>
+          <img class="header__logo--circle" aria-hidden="true" src="assets/circle-text.png">
         </div> <!--end logo text-->
       </div>  
       <div class="header__image">
-          <img src="assets/blog-image-2.jpg" alt="Sophie wears mini buns in her hair, she is smiling with an orange hald held in front of each eye">
+          <img class="header__photo" src="assets/blog-image-2.jpg" alt="Sophie wears mini buns in her hair, she is smiling with an orange hald held in front of each eye">
       </div> 
-    </div>   
+    <!-- </div>    -->
   </header>
-
   <main id="mainContent">
-    
       <section class="about"> <!--WHO IS SOPHIE-->
         <div class="wrapper">
           <div class="about__container">
@@ -99,12 +95,22 @@
         <div class="links__container">
           <a class="links__more" href="##contact">
             <div class="links__more--circle">
-              <i class="links__icon fas fa-desktop"></i>
+              <i class="links__icon fas fa-image"></i>
             </div>
-            <h3 class="links__title">Get in Touch</h3>
+            <h3 class="links__title">Photos</h3>
           </a>
-            <p class="links__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum obcaecati natus earum
-              tempore qui fugit quam alias necessitatibus amet dignissimos? Architecto similique blanditiis aliquid praesentium nesciunt error rem impedit voluptates?</p>
+            <p class="links__body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, veniam! Excepturi maxime modi nobis explicabo beatae veniam incidunt iste, asperiores doloribus illo</p>
+        </div>
+
+        <div class="links__container">
+          <a class="links__more" href="##contact">
+            <div class="links__more--circle">
+              <i class="links__icon fas fa-user"></i>
+            </div>
+            <h3 class="links__title">About</h3>
+          </a>
+            <p class="links__body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, veniam! Excepturi maxime modi nobis explicabo beatae
+            veniam incidunt iste, asperiores doloribus illo </p>
         </div>
 
         <div class="links__container">
@@ -112,35 +118,21 @@
             <div class="links__more--circle">
               <i class="links__icon fas fa-desktop"></i>
             </div>
-            <h3 class="links__title">Get in Touch</h3>
+            <h3 class="links__title">Blog</h3>
           </a>
-            <p class="links__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum obcaecati natus earum
-              tempore qui fugit quam alias necessitatibus amet dignissimos? Architecto similique blanditiis aliquid praesentium
-              nesciunt error rem impedit voluptates?</p>
+            <p class="links__body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, veniam! Excepturi maxime modi nobis explicabo beatae
+            veniam incidunt iste, asperiores doloribus illo </p>
         </div>
 
         <div class="links__container">
           <a class="links__more" href="##contact">
             <div class="links__more--circle">
-              <i class="links__icon fas fa-desktop"></i>
-            </div>
-            <h3 class="links__title">Get in Touch</h3>
-          </a>
-            <p class="links__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum obcaecati natus earum
-              tempore qui fugit quam alias necessitatibus amet dignissimos? Architecto similique blanditiis aliquid praesentium
-              nesciunt error rem impedit voluptates?</p>
-        </div>
-
-        <div class="links__container">
-          <a class="links__more" href="##contact">
-            <div class="links__more--circle">
-              <i class="links__icon fas fa-desktop"></i>
+              <i class="links__icon fas fa-phone"></i>
             </div>  
             <h3 class="links__title">Get in Touch</h3>
           </a>
-            <p class="links__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum obcaecati natus earum
-              tempore qui fugit quam alias necessitatibus amet dignissimos? Architecto similique blanditiis aliquid praesentium
-              nesciunt error rem impedit voluptates?</p>
+            <p class="links__body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, veniam! Excepturi maxime modi nobis explicabo beatae
+            veniam incidunt iste, asperiores doloribus illo</p>
         </div> 
 
       </div> <!--end of wrapper-->

@@ -4,44 +4,51 @@
   max-width: 80%;
 }
 
+
 .header {
   background: $headerAccent;
-  height: 100vh;
+  min-height: 100vh;
   padding: 10rem 0;
   margin: 0 auto;
 
-  .wrapper {
-  display: flex;
-  justify-content: space-between;
-  }
 
   &__logo {
     height: 100%;
-    // margin: 0 auto;
+    width: 60%;
+    position: relative;
   }
 
   &__text {
     color: $mainText;
     font-family: $titleFont;
-    font-size: 80px;
+    font-size: 6rem;
+    font-weight: bold;
     line-height: 9.2rem;
     margin: 0 auto;
-    padding: 8rem 0 0 0;
+    padding: 8rem 0 0 5rem;
     text-align: center;
     text-transform: uppercase;
     position: relative;
   }
+
+  &__image {
+    width: 30%;
+    position: absolute;
+    right: 10%;
+    bottom: -3%;
+  }
   
-  &__image img {
-    height: 90vh;
-    margin: 0 auto;
-    box-shadow: 10px 10px white;
+  &__photo {
+    // height: 90vh;
+    // margin: 0 auto;
+    box-shadow: 15px 15px white;
     display: block;
+    width: 100%;
   }
 
   &__logo--circle {
     position: absolute;
-    top: 45%;
-    left: -10%;
+    top: 40%;
+    left: 15%;
   }
 } 
