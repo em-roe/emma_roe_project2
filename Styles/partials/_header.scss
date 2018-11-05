@@ -1,0 +1,47 @@
+.wrapper {
+  margin: 0 auto; 
+  width: 1280px;
+  max-width: 80%;
+}
+
+.header {
+  background: $headerAccent;
+  height: 100vh;
+  padding: 10rem 0;
+  margin: 0 auto;
+
+  .wrapper {
+  display: flex;
+  justify-content: space-between;
+  }
+
+  &__logo {
+    height: 100%;
+    // margin: 0 auto;
+  }
+
+  &__text {
+    color: $mainText;
+    font-family: $titleFont;
+    font-size: 80px;
+    line-height: 9.2rem;
+    margin: 0 auto;
+    padding: 8rem 0 0 0;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+  }
+  
+  &__image img {
+    height: 90vh;
+    margin: 0 auto;
+    box-shadow: 10px 10px white;
+    display: block;
+  }
+
+  &__logo--circle {
+    position: absolute;
+    top: 45%;
+    left: -10%;
+  }
+} 

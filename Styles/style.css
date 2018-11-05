@@ -392,6 +392,12 @@ img {
       align-content: center;
 }
 
+.posts__body {
+  font-family: "Roboto", sans-serif;
+  color: #2c2c2c;
+  font-size: 2rem;
+}
+
 .posts__image--yellow {
   -webkit-box-shadow: 10px 10px #f6a823, 80px 10px #f6a823;
           box-shadow: 10px 10px #f6a823, 80px 10px #f6a823;
