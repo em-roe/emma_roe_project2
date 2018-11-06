@@ -31,44 +31,73 @@
       </li>
     </ul>
   </nav>
-    <header>
-      <h1>Get in touch</h1>
-    </header>
-    <main>
-      <aside>
-        <ul>
-          <li>
-            <a href="#facebook"> 
-              <i class="fab fa-facebook-f"></i>
-              <span class="visuallyhidden">Facebook</span> 
-            </a>
-          </li>
-          <li>
-            <a href="#twitter">
-              <i class="fab fa-twitter"></i>
-              <span class="visuallyhidden">Twitter</span>
-            </a>
-          </li>
-          <li>
-            <a href="#linkedin">
-              <i class="fab fa-linkedin-in"></i>              <span class="visuallyhidden">Linkedin</span>
-            </a>
-          </li>
-          <li>
-            <a href="#instagram">
-              <i class="fab fa-instagram"></i>
-              <span class="visuallyhidden">Instagram</span>
-            </a>
-          </li>
-        </ul>
-      </aside>
-      <section>
-    
+  <header class="contact__header">
+    <div class="wrapper">
+      <h1 class="contact__title">Get in touch</h1>
+  </div>
+  </header>
+  <main class="contact">
+
+
+
+      <section class="contact__form">
+          <form class="contact__form" action="" method="POST" name="contactform">
+            <div class="contact__form--top">
+              <label class="visuallyhidden" for="name">Name</label>
+              <input class="input input__name" id="name" type="text" name="name" placeholder="Name">
+
+              <label class="visuallyhidden" for="email">Email</label>
+              <input id="email" class="input input__email" type="email" name="email" placeholder="Email address">
+
+            </div>
+            <label class="visuallyhidden" for="message">Message</label>
+            <input id="message" type="text" class="input input__message" name="message" placeholder="Message">
+            <button class="contact__form--submit">
+              Submit
+            </button>
+          </form>
+      </section>
+      
+      
+
+      <section class="contact__side">
+            <ul class="contact__links">
+              <li class="contact__links--item">
+                <a href="#facebook" class="contact__links--item"> 
+                  <i class="fab fa-facebook-f"></i>
+                  <span class="visuallyhidden">Facebook</span> 
+                </a>
+              </li>
+              <li>
+                <a href="#twitter" class="contact__links--item" >
+                  <i class="fab fa-twitter"></i>
+                  <span class="visuallyhidden">Twitter</span>
+                </a>
+              </li>
+              <li>
+                <a href="#linkedin" class="contact__links--item" >
+                  <i class="fab fa-linkedin-in"></i>              <span class="visuallyhidden">Linkedin</span>
+                </a>
+              </li>
+              <li>
+                <a href="#instagram" class="contact__links--item">
+                  <i class="fab fa-instagram"></i>
+                  <span class="visuallyhidden">Instagram</span>
+                </a>
+              </li>
+            </ul>
+            <p class="contact__email">info@email.com</p>
+            <address class="contact__address">
+              123-456-789 </br>
+              123 Queen Street West, Unit 10 </br>
+              Toronto, Ontario </br>
+              M5VD5
+            </address>
       </section>
     </main>
     
     <footer>
-    
+      <p>copyright 2018 HackerYou</p>
     </footer>
 
 </body>

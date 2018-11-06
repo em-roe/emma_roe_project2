@@ -9,6 +9,7 @@
   min-height: 100vh;
   padding: 10rem 0;
   margin: 0 auto;
+  position: relative;
 
 
   &__logo {
@@ -51,3 +52,25 @@
     left: 15%;
   }
 } 
+
+.contact {
+
+  &__header {
+  background: url(../assets/contact-image-1.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 45vh;
+  margin: 0 auto;
+  padding: 20rem 0 0 0;
+  }
+
+  &__title {
+    color: $mainText;
+    font-family: $titleFont;
+    font-size: 8rem;
+    font-weight: bold;
+    line-height: 9.2rem;
+    text-transform: uppercase;
+    margin: 0 auto;
+  }
+
+}
