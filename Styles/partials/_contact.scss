@@ -3,14 +3,19 @@
   display: flex; 
   flex-direction: row-reverse;
   justify-content: center;
-  // width: 100%;
-  padding: 4% 0 0 0;
+  width: 100%;
+  padding: 4% 10% 0 10%;
 
   &__form {
     display: flex;
     flex-direction: column;
-    // margin: 0 auto;
-    width: 80%;
+    margin: 0 auto;
+    width: 100%;
+
+    &--size {
+    padding-left: 5%
+  }
+
 
     &--top {
       display: flex;
@@ -24,6 +29,7 @@
       margin: 2.5% auto;
       width: 100%;
       background: $buttonAccent;
+      border: 1px solid $buttonAccent;
       text-transform: uppercase;
       color: $mainText;
       font-size: 2rem;
@@ -38,9 +44,9 @@
   }
   
   &__side {
-    width: 25%;
+    width: 45%;
     margin: 0 auto;
-    padding: 3rem;
+    padding: 2rem 0 2rem 2rem;
     background: white;
     height: 250px;
   }
@@ -50,7 +56,7 @@
     justify-content: space-between;
     margin: 0 0;
     padding: 0;
-    width: 60%;
+    width: 50%;
     
     &--item {
       color: $headerAccent;
@@ -62,6 +68,8 @@
     font-family: $bodyFont;
     font-size: 2rem;
     font-weight: bold;
+    margin: 0;
+    padding: 1rem 0;
   }
 
   &__address {
@@ -81,9 +89,13 @@
     font-style: italic;
   }
 
-  &__name, &__email {
-    width: 49%;
+  &--half {
+    flex-basis: 50%;
     margin: 0 0;
+  }
+
+  &--name {
+    margin-right: 3%;
   }
 
   &__message {

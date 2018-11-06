@@ -1,0 +1,73 @@
+.blog {
+  display: flex;
+  flex-direction: row-reverse;
+
+  &__side {
+    width: 45%;
+    margin: 0 auto;
+    padding: 2rem;
+    background: white;
+  }
+
+  &__form {
+    margin: 0 0; 
+    padding: 0 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    &--size {
+      padding-left: 5%
+    }
+
+    &--top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0 0 2.5% 0;
+    }
+
+    &--submit{
+      text-align: center;
+      margin: 2.5% auto;
+      width: 100%;
+      background: $buttonAccent;
+      border: 1px solid $buttonAccent;
+      text-transform: uppercase;
+      color: $mainText;
+      font-size: 2rem;
+      line-height: 2.9rem;
+      letter-spacing: 0px;
+      font-weight: bold;
+      text-decoration: none;
+      text-transform: uppercase;
+      text-align: center;
+    }
+  }
+}  
+
+.blogposts {
+  display: flex; 
+  flex-direction: column;
+  width: 60%;
+  background: white;
+
+  &__main {
+    background: white;
+  }
+
+  &__second {
+    display: flex;
+    flex-direction: column;
+
+    &--content {
+      display: flex;
+    }
+
+    &--text {
+      margin: 0 auto; 
+      padding: 0; 
+      width: 80%;
+    }
+  }
+}
