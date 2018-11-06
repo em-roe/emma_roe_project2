@@ -381,7 +381,7 @@ img {
 }
 
 .posts__container {
-  padding: 0 3rem;
+  padding: 0 0rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -392,6 +392,14 @@ img {
   -ms-flex-line-pack: center;
       align-content: center;
   width: 70%;
+}
+
+.posts__container--left {
+  padding-left: 5rem;
+}
+
+.posts__container--right {
+  padding-right: 5rem;
 }
 
 .posts__body {
@@ -511,15 +519,5 @@ img {
 
 .gallery__image--padding {
   padding: 0 2rem;
-}
-
-.section__gallery {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
 }
 /*# sourceMappingURL=style.css.map */

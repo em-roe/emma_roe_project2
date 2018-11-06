@@ -70,11 +70,19 @@
   }
 
   &__container{
-    padding: 0 3rem;
+    padding: 0 0rem;
     display: flex;
     flex-direction: column;
     align-content: center;
     width: 70%;
+
+    &--left {
+      padding-left: 5rem;
+    }
+
+    &--right {
+      padding-right: 5rem;
+    }
   }
 
   &__body { // but these styles are the same as the ones for the about
@@ -175,10 +183,5 @@
 }
 
 
-
-.section__gallery {
-  display: flex; 
-  flex-direction: row;
-}
 
 
