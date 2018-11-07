@@ -1,12 +1,12 @@
 .blog {
   display: flex;
   flex-direction: row-reverse;
+  justify-content: space-between;
 
   &__side {
-    width: 45%;
-    margin: 0 auto;
-    padding: 2rem;
-    background: white;
+    flex-basis: 25%;
+    background: $background;
+    padding: 0 5% 0 10%;
   }
 
   &__form {
@@ -16,9 +16,6 @@
     flex-direction: column;
     width: 100%;
 
-    &--size {
-      padding-left: 5%
-    }
 
     &--top {
       display: flex;
@@ -44,13 +41,19 @@
       text-align: center;
     }
   }
+
+  &__photo {
+    width: 50%;
+    padding: 1rem;
+  }
 }  
 
 .blogposts {
   display: flex; 
   flex-direction: column;
-  width: 60%;
-  background: white;
+  flex-basis: 60%;
+  background: $background;
+  padding-right: 10%;
 
   &__main {
     background: white;
@@ -59,6 +62,7 @@
   &__second {
     display: flex;
     flex-direction: column;
+    background: white;
 
     &--content {
       display: flex;
@@ -70,4 +74,14 @@
       width: 80%;
     }
   }
+}
+
+.recent {
+  border: 1px solid purple;
+  background: white;
+}
+
+.data {
+  background: white;
+  border: 1px solid tomato;
 }
